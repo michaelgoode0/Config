@@ -1,0 +1,12 @@
+systemUser:
+  name: system_user
+  password: system
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        opaquetoken:
+          client-secret: qny47bsq
+          client-id: portal
+          introspection-uri: http://oauth-service/oauth/check_token
